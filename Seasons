@@ -1,0 +1,12 @@
+a=input("Enter the month: ")
+b=int(input("Enter the date: "))
+if (a=="march" and b>19) or (a=="april") or (a=="may") or ((a=="june") and b<22):
+    season="summer"
+elif (a=="june" and b>21) or (a=="july") or (a=="august") or (a=="september"and b<22) :
+    season="Spring"
+elif (a=="september" and b>21) or (a=="october") or (a=="november") or (a=="december" and b<21):
+    season="fall"
+else :
+    season="winter"
+    
+print("Season is",season)
