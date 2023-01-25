@@ -1,0 +1,14 @@
+str1=input()
+str2=input()
+s1=list(str1.split(" "))
+s2=list(str2.split(" "))
+for i in s1 :
+     if i in s2 :
+         s1.remove(i)
+         s2.remove(i)
+         print(s1)
+         print(s2)
+         a1=" ".join(s1)
+         print(a1)
+         a2=" ".join(s2)
+         print(a2)
